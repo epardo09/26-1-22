@@ -1,4 +1,30 @@
 /* CSS LAYOUT */
 /* **************************************************************** */
 
+/*root*/
+:root{
+    --margenExterno:30px;
+    --logoAltura:50px;
+    --longNav:0.5;
+}
+/*header*/
+header{
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0var(--margenExterno);
+}
+
+/*logo*/
+.logo{
+    height: var(--logoAltura);
+}
+
+/*nav*/
+nav{
+    flex-grow: var(--longNav);
+    display: flex;
+    justify-content:  space-between;
+}
 
